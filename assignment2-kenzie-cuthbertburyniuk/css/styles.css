@@ -1,0 +1,206 @@
+:root {
+    --body-text: 1.125rem;
+    --first-level-heading: 4.5rem;
+    --second-level-heading: 2.25rem;
+    --primary-red: #BD3A5A;
+    --secondary-blue: #005A8F;
+    --off-white: #F8FAFC;
+    --tertiary-navy: #002439;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: var(--off-white);
+}
+
+.inner-container {
+    width: 1512px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.875rem;
+    font-size: 1.25rem;
+    margin-left: 27rem;
+    margin-right: 27rem;
+}
+
+header img {
+    margin-left: 6.3125rem;
+}
+
+.sign-in {
+    font-size: 1.25rem;
+    background-color: var(--primary-red);
+    margin-bottom: 2rem;
+    margin-top: 2.125rem;
+}
+
+.sign-in a {
+    padding: .75rem 1rem;
+    text-decoration: none;
+    color: var(--off-white);
+}
+
+.sign-in:hover {
+    background-color: #84283F;
+}
+
+
+.meeple {
+    color: var(--off-white);
+    display: flex;
+}
+
+.background {
+    background-color: var(--secondary-blue);
+}
+
+h1 {
+    font-size: var(--first-level-heading);
+    font-weight: bold;
+    margin-left: 6.3125rem;
+    margin-top: 5.0625rem;
+}
+
+.paragraph {
+    font-size: 2.25rem;
+    justify-content: center;
+    margin-top: 8.25rem;
+    margin-right: 6.3125rem;
+}
+
+
+
+.background a {
+    display: inline-block;
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: var(--off-white);
+    border: solid 1px var(--off-white);
+    margin-left: 6.3125rem;
+    margin-bottom: 5.0625rem;
+    margin-top: 1.6875rem;
+    padding: .75rem 1rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.game-night {
+    background-color: white;
+}
+
+span {
+    display: block;
+}
+
+.game-night img {
+    margin-top: 5.0625rem;
+}
+
+.game-night h2 {
+    margin-left: 1.6875rem;
+    margin-top: 1.6875rem;
+    margin-bottom: 1.375rem;
+}
+
+.game-night p {
+    font-size: 1.125rem;
+    margin-left: 1.6875rem;
+    flex-basis: 31.1875rem;
+}
+
+.game-night a {
+    color: var(--primary-red);
+    font-size: 1.375rem;
+    font-weight: bold;
+    margin-left: 5.6875rem;
+
+}
+
+.game-night a:hover {
+    color: #84283F;
+}
+
+.newest-game {
+    background-color: white;
+    flex-basis: 25.875rem;
+}
+
+.newest-game h2 {
+    margin-left: 5.875rem;
+    margin-top: 6.75rem;
+    padding-bottom: 3.375rem;
+
+}
+
+.newest-game figcaption {
+    font-size: 1.125rem;
+    margin-bottom: 3.375rem;
+}
+
+.books {
+    margin-left: 10.375rem;
+
+}
+
+.newsletter {
+    margin-left: 1.6875rem;
+    background-color: white;
+    width: 53.875rem;
+}
+
+.newsletter p {
+    font-size: 1.125rem;
+}
+
+.magic {
+    margin-left: 1.6875rem;
+    background-color: white;
+    width: 53.875rem;
+    margin-top: 5.0625rem;
+}
+
+.magic a {
+    font-size: 1.375rem;
+    color: var(--primary-red);
+    font-weight: bold;
+}
+
+.magic a:hover {
+    color: #84283F;
+}
+
+.events {
+    margin-left: 1.6875rem;
+    background-color: white;
+    width: 53.875rem;
+    margin-top: 5.0625rem;
+}
+
+.events p {
+    font-size: 1.125rem;
+}
+
+footer {
+    background-color: var(--tertiary-navy);
+    color: var(--off-white);
+    margin-top: 5.0625rem;
+    font-size: 1.125rem;
+    padding-top: 3.375rem;
+    padding-bottom: 4.875rem;
+    padding-left: 11.8125rem;
+    padding-right: 11.8125rem;
+    gap: 2.125rem;
+}
